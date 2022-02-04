@@ -1,0 +1,28 @@
+<!-- Video showreel -->
+<section class='container text-center pb-5 mb-3 mb-md-4 mb-lg-5'>
+  <h2 class='h1 pt-1 mb-4'>New Releases</h2>
+  <div class='row justify-content-center mb-md-2 mb-lg-5'>
+    <div class='col-lg-6 col-md-8'>
+      <p class='fs-lg text-muted mb-lg-0'>
+        {{show.title}}
+      </p>
+    </div>
+  </div>
+  <div class='position-relative rounded-3 overflow-hidden mb-lg-3'>
+    <div
+      class='position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center zindex-5'
+    >
+      <a
+        href='{{show.href}}'
+        class='btn btn-video btn-icon btn-xl stretched-link bg-white'
+        target='_blank'
+      >
+        <i class='bx bx-play'></i>
+      </a>
+    </div>
+    <span
+      class='position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-35'
+    ></span>
+    <img src='/img/landing/medical/{{show.src}}' alt='youtube thumb' />
+  </div>
+</section>

@@ -1,0 +1,83 @@
+<!-- Services -->
+<section class='container pb-5 mb-md-2 mb-lg-5'>
+  <div class='row'>
+    <div class='col-lg-4 text-center text-lg-start pb-3 pb-lg-0 mb-4 mb-lg-0'>
+      <h2 class='h1 mb-lg-4'>Some of the Services we offer</h2>
+      <p class='pb-4 mb-0 mb-lg-3'>
+        We appreciate your trust greatly. Our clients choose us and our services
+        because they know we are the best. We offer complete audio experience to
+        individuals and audio identity to brands.
+      </p>
+      <a
+        href='/services'
+        class='btn_motif purple shadow-primary'
+        data-content='View all services'
+      >view all services...</a>
+    </div>
+    <div class='col-xl-7 col-lg-8 offset-xl-1'>
+      <div class='row row-cols-1 row-cols-md-2'>
+        <div class='col'>
+          {{#each serviceInfo}}
+            {{#if (lte this.id 3)}}
+              <div class='card card-hover bg-secondary border-0 mb-4'>
+                <div class='card-body d-flex align-items-start'>
+                  <div class='flex-shrink-0 bg-light rounded-3 p-3'>
+                    <img
+                      src='/img/landing/medical/services/{{this.imgUrl}}'
+                      width='28'
+                      alt='{{this.title}}'
+                    />
+                  </div>
+                  <div class='ps-4'>
+                    <h3 class='h5 pb-2 mb-1'>{{this.title}}</h3>
+                    <p class='pb-2 mb-1'>
+                      {{this.description}}
+                    </p>
+                    <a
+                      href='/services/{{this.id}}'
+                      class='btn btn-link stretched-link px-0'
+                    >
+                      Start here
+                      <i class='bx bx-right-arrow-alt fs-xl ms-2'></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            {{/if}}
+          {{/each}}
+        </div>
+        <div class='col'>
+          {{#each serviceInfo}}
+            {{#if (gt this.id 3)}}
+              <div class='card card-hover bg-secondary border-0 mb-4'>
+                <div class='card-body d-flex align-items-start'>
+                  <div class='flex-shrink-0 bg-light rounded-3 p-3'>
+                    <img
+                      src='/img/landing/medical/services/{{this.imgUrl}}'
+                      width='28'
+                      alt='{{this.title}}'
+                    />
+                  </div>
+                  <div class='ps-4'>
+                    <h3 class='h5 pb-2 mb-1'>{{this.title}}</h3>
+                    <p class='pb-2 mb-1'>
+                      {{this.description}}
+                    </p>
+                    <a
+                      href='/services/{{this.id}}'
+                      class='btn btn-link stretched-link px-0'
+                    >
+                      Start here
+                      <i class='bx bx-right-arrow-alt fs-xl ms-2'></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            {{/if}}
+          {{/each}}
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>

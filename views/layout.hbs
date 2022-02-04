@@ -1,0 +1,122 @@
+<html lang='en' class='dark-mode'>
+  <head>
+    <meta charset='utf-8' />
+    <title>Motif Di Don | {{title}}</title>
+
+    <!-- SEO Meta Tags -->
+    <meta
+      name='description'
+      content='Motif Di Don - Music Producer and Audio Engineer'
+    />
+    <meta
+      name='keywords'
+      content='music, producer, creative, agency, booking, studio, time, songs, online recording, logic, ableton, fl studio, services, e-commerce, sample packs, beats, instrumentals, mixing and mastering, recording, vocals, autotune, music business, mix engineer, music producer, kenya, motifdidon, don, di, motif, creative'
+    />
+    <meta name='author' content='Max The Stranger' />
+
+    <!-- Viewport -->
+    <meta name='viewport' content='width=device-width, initial-scale=1' />
+
+    <!-- Vendor Styles -->
+    <link
+      href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css'
+      rel='stylesheet'
+    />
+    <link
+      rel='stylesheet'
+      media='screen'
+      href='/vendor/swiper/swiper-bundle.min.css'
+    />
+    <link
+      rel='stylesheet'
+      media='screen'
+      href='/vendor/lightgallery.js/dist/css/lightgallery.min.css'
+    />
+
+    <!-- Main Theme Styles + Bootstrap -->
+    <link rel='stylesheet' media='screen' href='/css/theme.min.css' />
+    <link rel='stylesheet' media='screen' href='/css/custom.css' />
+
+    <!-- Page loading styles -->
+    <style>
+      .page-loading { position: fixed; top: 0; right: 0; bottom: 0; left: 0;
+      width: 100%; height: 100%; -webkit-transition: all 0.4s 0.2s ease-in-out;
+      transition: all 0.4s 0.2s ease-in-out; background-color: #fff; opacity: 0;
+      visibility: hidden; z-index: 9999; } .dark-mode .page-loading {
+      background-color: #131022; } .page-loading.active { opacity: 1;
+      visibility: visible; } .page-loading-inner { position: absolute; top: 50%;
+      left: 0; width: 100%; text-align: center; -webkit-transform:
+      translateY(-50%); transform: translateY(-50%); -webkit-transition: opacity
+      0.2s ease-in-out; transition: opacity 0.2s ease-in-out; opacity: 0; }
+      .page-loading.active > .page-loading-inner { opacity: 1; }
+      .page-loading-inner > span { display: block; font-size: 1rem; font-weight:
+      normal; color: #9397ad; } .dark-mode .page-loading-inner > span { color:
+      #fff; opacity: 0.6; } .page-spinner { display: inline-block; width:
+      2.75rem; height: 2.75rem; margin-bottom: 0.75rem; vertical-align:
+      text-bottom; border: 0.15em solid #b4b7c9; border-right-color:
+      transparent; border-radius: 50%; -webkit-animation: spinner 0.75s linear
+      infinite; animation: spinner 0.75s linear infinite; } .dark-mode
+      .page-spinner { border-color: rgba(255, 255, 255, 0.4);
+      border-right-color: transparent; } @-webkit-keyframes spinner { 100% {
+      -webkit-transform: rotate(360deg); transform: rotate(360deg); } }
+      @keyframes spinner { 100% { -webkit-transform: rotate(360deg); transform:
+      rotate(360deg); } }
+    </style>
+
+    <!-- Page loading scripts -->
+    <script>
+      (function () { window.onload = function () { const preloader =
+      document.querySelector('.page-loading');
+      preloader.classList.remove('active'); setTimeout(function () {
+      preloader.remove(); }, 1000); }; })();
+    </script>
+  </head>
+
+  <!-- Body -->
+  <body class='f_mosk'>
+    <!-- Page loading spinner -->
+    <div class='page-loading active'>
+      <div class='page-loading-inner'>
+        <div class='page-spinner'></div>
+        <span>Loading...</span>
+      </div>
+    </div>
+
+    <!-- Page wrapper for sticky footer -->
+    <!-- Wraps everything except footer to push footer to the bottom of the page if there is little content -->
+    <main class='page-wrapper'>
+      <!-- Navbar -->
+      <!-- Remove "navbar-sticky" class to make navigation bar scrollable with the page -->
+      {{> header }}
+
+      {{{body}}}
+
+    </main>
+
+    <!-- Footer -->
+    {{> footer navMenu}}
+
+    <!-- Back to top button -->
+    <a href='#top' class='btn-scroll-top' data-scroll>
+      <span class='btn-scroll-top-tooltip text-muted fs-sm me-2'>Top</span>
+      <i class='btn-scroll-top-icon bx bx-chevron-up'></i>
+    </a>
+
+    <!-- Vendor Scripts -->
+    <script src='/vendor/bootstrap/dist/js/bootstrap.bundle.min.js'></script>
+    <script
+      src='/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js'
+    ></script>
+
+    <script src='/vendor/jarallax/dist/jarallax.min.js'></script>
+    <script src='/vendor/jarallax/dist/jarallax-element.min.js'></script>
+    <script src='/vendor/swiper/swiper-bundle.min.js'></script>
+    <script src='/vendor/lightgallery.js/dist/js/lightgallery.min.js'></script>
+    <script src="/vendor/parallax-js/dist/parallax.min.js"></script>
+    <script src='/vendor/lg-video.js/dist/lg-video.min.js'></script>
+    <script defer src='/vendor/isotope/isotope.pkgd.min.js'></script>
+
+    <!-- Main Theme Script -->
+    <script src='/js/theme.min.js'></script>
+  </body>
+</html>
