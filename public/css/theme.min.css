@@ -37,7 +37,7 @@
   --bs-danger: #ef4444;
   --bs-light: #fff;
   --bs-dark: #131022;
-  --bs-primary-rgb: 99, 102, 241;
+  --bs-primary-rgb: 237, 125, 49;
   --bs-secondary-rgb: 239, 242, 252;
   --bs-success-rgb: 34, 197, 94;
   --bs-info-rgb: 76, 130, 247;
@@ -15210,16 +15210,17 @@ img-comparison-slider:focus {
 .dark-mode .navbar-light .navbar-toggler-icon::after {
   background-color: rgba(255, 255, 255, 0.85);
 }
-.dark-mode .navbar-light .nav-item > .nav-link, .dark-mode .navbar-stuck .nav-item > .nav-link {
+.dark-mode .navbar-light .nav-item > .nav-link,
+.dark-mode .navbar-stuck .nav-item > .nav-link {
   color: rgba(255, 255, 255, 0.85);
 }
 
-.dark-mode .navbar-light .nav-item:nth-last-child(-n+3) > .nav-link{
-    color: var(--black);
+.dark-mode .navbar-light .nav-item:nth-last-child(-n + 3) > .nav-link {
+  color: var(--black);
 }
 
-.dark-mode .navbar-stuck .nav-item:nth-last-child(-n+3) > .nav-link{
-    color: rgba(255, 255, 255, 0.85);
+.dark-mode .navbar-stuck .nav-item:nth-last-child(-n + 3) > .nav-link {
+  color: rgba(255, 255, 255, 0.85);
 }
 
 .dark-mode .navbar-light .nav-item > .nav-link:hover {

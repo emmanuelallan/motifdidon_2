@@ -120,37 +120,37 @@ const serviceInfo = [
     id: 1,
     imgUrl: 'cardiology.svg',
     title: 'Mixing & Mastering',
-    description: 'Polish your tracks with a clean mixing and mastering service',
+    description: `Nisi, dis sed cursus eget pellentesque mattis. Odio eu proin aliquam a. Semper bibendum tellus non tellus, facilisi dignissim in quam massa. Aliquam, feugiat ut cum tellus, sit. Quis consectetur gravida ac ac lectus cursus egestas.`,
   },
   {
     id: 2,
     imgUrl: 'scalpel.svg',
     title: 'Vocal Recording',
-    description: 'Polish your tracks with a clean mixing and mastering service',
+    description: `Nisi, dis sed cursus eget pellentesque mattis. Odio eu proin aliquam a. Semper bibendum tellus non tellus, facilisi dignissim in quam massa. Aliquam, feugiat ut cum tellus, sit. Quis consectetur gravida ac ac lectus cursus egestas.`,
   },
   {
     id: 3,
     imgUrl: 'x-ray.svg',
     title: 'Jingles & Audio Branding',
-    description: 'Polish your tracks with a clean mixing and mastering service',
+    description: `Nisi, dis sed cursus eget pellentesque mattis. Odio eu proin aliquam a. Semper bibendum tellus non tellus, facilisi dignissim in quam massa. Aliquam, feugiat ut cum tellus, sit. Quis consectetur gravida ac ac lectus cursus egestas.`,
   },
   {
     id: 4,
     imgUrl: 'stethoscope.svg',
     title: 'Instrumental Production',
-    description: 'Polish your tracks with a clean mixing and mastering service',
+    description: `Nisi, dis sed cursus eget pellentesque mattis. Odio eu proin aliquam a. Semper bibendum tellus non tellus, facilisi dignissim in quam massa. Aliquam, feugiat ut cum tellus, sit. Quis consectetur gravida ac ac lectus cursus egestas.`,
   },
   {
     id: 5,
     imgUrl: 'lungs.svg',
     title: 'Video and Photography',
-    description: 'Polish your tracks with a clean mixing and mastering service',
+    description: `Nisi, dis sed cursus eget pellentesque mattis. Odio eu proin aliquam a. Semper bibendum tellus non tellus, facilisi dignissim in quam massa. Aliquam, feugiat ut cum tellus, sit. Quis consectetur gravida ac ac lectus cursus egestas.`,
   },
   {
     id: 6,
     imgUrl: 'tooth.svg',
     title: 'Podcasts and V.O',
-    description: 'Polish your tracks with a clean mixing and mastering service',
+    description: `Nisi, dis sed cursus eget pellentesque mattis. Odio eu proin aliquam a. Semper bibendum tellus non tellus, facilisi dignissim in quam massa. Aliquam, feugiat ut cum tellus, sit. Quis consectetur gravida ac ac lectus cursus egestas.`,
   },
 ];
 

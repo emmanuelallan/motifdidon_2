@@ -1,0 +1,45 @@
+<!-- Breadcrumb -->
+<nav class='container py-4 mb-lg-2 mt-lg-3' aria-label='breadcrumb'>
+  <ol class='breadcrumb mb-0'>
+    <li class='breadcrumb-item'>
+      <a href='/'><i class='bx bx-home-alt fs-lg me-1'></i>Home</a>
+    </li>
+    <li class='breadcrumb-item active' aria-current='page'>Services</li>
+  </ol>
+</nav>
+
+<!-- Page title + Services grid -->
+<section class='container pb-2 pb-md-4 pb-lg-5 mb-3'>
+  <h1 class='pb-4'>Services</h1>
+  <div class='row row-cols-1 row-cols-md-2'>
+    <!-- Item -->
+    {{#each serviceInfo}}
+      <div class='col py-4 my-2 my-sm-3'>
+        <a
+          href='#book'
+          class='card card-hover h-100 border-0 shadow-sm text-decoration-none pt-5 px-sm-3 px-md-0 px-lg-3 pb-sm-3 pb-md-0 pb-lg-3 me-xl-2'
+        >
+          <div class='card-body pt-3'>
+            <div
+              class='d-inline-block border_motif rounded-3 position-absolute top-0 translate-middle-y p-3'
+            >
+              <img
+                src='/img/landing/medical/services/{{this.imgUrl}}'
+                class='d-block m-1'
+                width='40'
+                alt='Icon'
+              />
+            </div>
+            <h2 class='h4 d-inline-flex align-items-center'>
+              {{this.title}}
+              <i class='bx bx-right-arrow-circle text-primary fs-3 ms-2'></i>
+            </h2>
+            <p class='fs-sm text-body mb-0'>
+              {{this.description}}
+            </p>
+          </div>
+        </a>
+      </div>
+    {{/each}}
+  </div>
+</section>
