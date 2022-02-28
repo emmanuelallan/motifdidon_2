@@ -14953,7 +14953,7 @@ img-comparison-slider:focus {
 .dark-mode .btn-video:hover {
   background-color: var(--bs-primary);
   color: #fff !important;
-  box-shadow: 0 0.5rem 1.125rem -0.5rem rgba(99, 102, 241, 0.9) !important;
+  box-shadow: 0 0.5rem 1.125rem -0.5rem rgba(255, 97, 61, 0.9) !important;
 }
 .dark-mode .btn-scroll-top {
   background-color: rgba(255, 255, 255, 0.15);

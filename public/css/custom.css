@@ -289,3 +289,26 @@
   overflow: hidden;
   white-space: normal;
 }
+
+.text_purple {
+  color: var(--puple);
+}
+
+.text_outline_purple {
+  color: hsl(0, 0%, 98%);
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: var(--puple);
+}
+
+.text_outline_primary {
+  color: hsl(0, 0%, 98%);
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: var(--orange);
+}
+
+.header_motif {
+  backdrop-filter: blur(15px) !important;
+  background: none !important;
+}

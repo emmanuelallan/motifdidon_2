@@ -39,75 +39,77 @@ const socialInfo = [
 
 const portfolioInfo = [
   {
-    imgUrl: 'eazzy.jpg',
+    imgUrl: 'eazi.png',
     name: 'Mr. Easy',
     country: 'Nigeria',
     href: 'https://instagram.com/mreazi',
   },
   {
-    imgUrl: 'dona.jpg',
+    imgUrl: 'tanasha.png',
     name: 'Tanasha Donna',
     country: 'Kenya',
     href: 'https://instagram.com/tanashadonna',
   },
   {
-    imgUrl: 'otile.jpg',
-    name: 'Otile Brown',
+    imgUrl: 'kaligraph.png',
+    name: 'Kaligraph Jones',
     country: 'Kenya',
-    href: 'https://instagram.com/otilebrown',
+    href: 'https://instagram.com/khaligraph_jones',
+  },
+
+  {
+    imgUrl: 'lava.png',
+    name: 'Lava Lava',
+    country: 'Tanzania',
+    href: 'https://instagram.com/iamlavalava',
   },
   {
-    imgUrl: 'rayvanny.jpg',
+    imgUrl: 'sarkodie.png',
+    name: 'Sarkodie',
+    country: 'Ghana',
+    href: 'https://instagram.com/sarkodie',
+  },
+
+  {
+    imgUrl: 'rayvanny.png',
     name: 'Rayvanny',
     country: 'Tanzania',
     href: 'https://instagram.com/rayvanny',
   },
   {
-    imgUrl: 'sarkodie.jpg',
-    name: 'Sarkodie',
-    country: 'Ghana',
-    href: 'https://instagram.com/sarkodie',
-  },
-  {
-    imgUrl: 'jones.jpg',
-    name: 'Kaligraph Jones',
-    country: 'Kenya',
-    href: 'https://instagram.com/khaligraph_jones',
-  },
-  {
-    imgUrl: 'reekado.jpg',
+    imgUrl: 'reekado.png',
     name: 'Reekado banks',
     country: 'Nigeria',
     href: 'https://instagram.com/reekadobanks',
   },
   {
-    imgUrl: 'lava.jpg',
-    name: 'Lava Lava',
-    country: 'Tanzania',
-    href: 'https://instagram.com/iamlavalava',
+    imgUrl: 'otile.png',
+    name: 'Otile Brown',
+    country: 'Kenya',
+    href: 'https://instagram.com/otilebrown',
   },
 ];
 
 const testimonyInfo = [
   {
     name: 'Kaligraph Jones',
-    title: 'Afrima Awards Best Rapper in Africa',
+    title: 'Artist',
     testimony: `Id mollis consectetur congue egestas egestas suspendisse
     blandit justo. Tellus augue commodo id quis tempus etiam
     pulvinar at maecenas.`,
     imgUrl: 'kali.jpg',
   },
   {
-    name: 'Masauti',
-    title: 'Singer',
+    name: 'Safaricom',
+    title: 'Coperation',
     testimony: `Id mollis consectetur congue egestas egestas suspendisse
     blandit justo. Tellus augue commodo id quis tempus etiam
     pulvinar at maecenas.`,
-    imgUrl: 'masauti.jpg',
+    imgUrl: 'mpesa.png',
   },
   {
     name: 'Nadia Mukami',
-    title: 'Singer',
+    title: 'Artist',
     testimony: `Id mollis consectetur congue egestas egestas suspendisse
     blandit justo. Tellus augue commodo id quis tempus etiam
     pulvinar at maecenas.`,
@@ -118,78 +120,68 @@ const testimonyInfo = [
 const serviceInfo = [
   {
     id: 1,
-    imgUrl: 'cardiology.svg',
+    imgUrl: 'mixing.svg',
     title: 'Mixing & Mastering',
     description: `Nisi, dis sed cursus eget pellentesque mattis. Odio eu proin aliquam a. Semper bibendum tellus non tellus, facilisi dignissim in quam massa. Aliquam, feugiat ut cum tellus, sit. Quis consectetur gravida ac ac lectus cursus egestas.`,
   },
   {
     id: 2,
-    imgUrl: 'scalpel.svg',
+    imgUrl: 'vocals.svg',
     title: 'Vocal Recording',
     description: `Nisi, dis sed cursus eget pellentesque mattis. Odio eu proin aliquam a. Semper bibendum tellus non tellus, facilisi dignissim in quam massa. Aliquam, feugiat ut cum tellus, sit. Quis consectetur gravida ac ac lectus cursus egestas.`,
   },
   {
     id: 3,
-    imgUrl: 'x-ray.svg',
+    imgUrl: 'jingles.svg',
     title: 'Jingles & Audio Branding',
     description: `Nisi, dis sed cursus eget pellentesque mattis. Odio eu proin aliquam a. Semper bibendum tellus non tellus, facilisi dignissim in quam massa. Aliquam, feugiat ut cum tellus, sit. Quis consectetur gravida ac ac lectus cursus egestas.`,
   },
   {
     id: 4,
-    imgUrl: 'stethoscope.svg',
+    imgUrl: 'instrumental.svg',
     title: 'Instrumental Production',
     description: `Nisi, dis sed cursus eget pellentesque mattis. Odio eu proin aliquam a. Semper bibendum tellus non tellus, facilisi dignissim in quam massa. Aliquam, feugiat ut cum tellus, sit. Quis consectetur gravida ac ac lectus cursus egestas.`,
   },
   {
     id: 5,
-    imgUrl: 'lungs.svg',
+    imgUrl: 'video.svg',
     title: 'Video and Photography',
     description: `Nisi, dis sed cursus eget pellentesque mattis. Odio eu proin aliquam a. Semper bibendum tellus non tellus, facilisi dignissim in quam massa. Aliquam, feugiat ut cum tellus, sit. Quis consectetur gravida ac ac lectus cursus egestas.`,
   },
   {
     id: 6,
-    imgUrl: 'tooth.svg',
+    imgUrl: 'pod.svg',
     title: 'Podcasts and V.O',
     description: `Nisi, dis sed cursus eget pellentesque mattis. Odio eu proin aliquam a. Semper bibendum tellus non tellus, facilisi dignissim in quam massa. Aliquam, feugiat ut cum tellus, sit. Quis consectetur gravida ac ac lectus cursus egestas.`,
   },
 ];
 
 const showreelInfo = {
-  title: 'Ssaru ft Trio Mio & Timmy Tdat - Kichwa Tu (Official Music Video)',
-  href: 'https://www.youtube.com/watch?v=IY7GlYwuAfw',
-  src: 'thumb.jpg',
+  title: 'Rayvanny Ft Nadia Mukami - Fall In Love',
+  href: 'https://www.youtube.com/watch?v=fa2xzMQXbVo',
+  src: 'rayvanny.jpg',
 };
 
 const brandInfo = [
   {
     href: 'https://www.safaricom.co.ke/personal/',
-    imgUrl: '01.svg',
+    imgUrl: 'awwwards.svg',
     title: 'Safaricom',
   },
   {
     href: 'https://www.safaricom.co.ke/personal/',
-    imgUrl: '02.svg',
+    imgUrl: 'cssda.svg',
     title: 'KCB',
   },
   {
     href: 'https://www.safaricom.co.ke/personal/',
-    imgUrl: '03.svg',
-    title: 'KCB',
+    imgUrl: 'fwa.svg',
+    title: 'Shell',
   },
   {
     href: 'https://www.safaricom.co.ke/personal/',
-    imgUrl: '04.svg',
-    title: 'KCB',
-  },
-  {
-    href: 'https://www.safaricom.co.ke/personal/',
-    imgUrl: '05.svg',
-    title: 'KCB',
-  },
-  {
-    href: 'https://www.safaricom.co.ke/personal/',
-    imgUrl: '06.svg',
-    title: 'KCB',
+    imgUrl: 'webby.svg',
+    title: 'Eabl',
   },
 ];
 

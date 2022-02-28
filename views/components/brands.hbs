@@ -1,81 +1,28 @@
 <!-- Brands (Carousel) -->
-<section class='container pb-4 pb-lg-5 mb-3'>
-  <div
-    class='d-flex align-items-center justify-content-md-between justify-content-center mb-md-4 mb-3'
-  >
-    <h2 class='mb-0'>Brands we work with</h2>
-
-    <!-- Slider prev/next buttons + Quotation mark -->
-    <div class='d-md-flex d-none ms-4'>
-      <button
-        type='button'
-        id='prev-brand'
-        class='btn btn-prev btn-icon btn-sm me-2'
-      >
-        <i class='bx bx-chevron-left'></i>
-      </button>
-      <button
-        type='button'
-        id='next-brand'
-        class='btn btn-next btn-icon btn-sm ms-2'
-      >
-        <i class='bx bx-chevron-right'></i>
-      </button>
+<section class='container mb-5 pb-2 pb-md-4 pb-lg-5'>
+  <div class='row gy-4 py-xl-2'>
+    <div class='col-md-4'>
+      <h2 class='mb-0 text-md-start text-center'>Brands we work with</h2>
     </div>
-  </div>
-  <div
-    class='swiper mx-n2'
-    data-swiper-options='{
-          "slidesPerView": 2,
-          "navigation": {
-            "prevEl": "#prev-brand",
-            "nextEl": "#next-brand"
-          },
-          "loop": true,
-          "pagination": {
-            "el": ".swiper-pagination",
-            "clickable": true
-          },
-          "breakpoints": {
-            "500": {
-              "slidesPerView": 3,
-              "spaceBetween": 8
-            },
-            "650": {
-              "slidesPerView": 4,
-              "spaceBetween": 8
-            },
-            "900": {
-              "slidesPerView": 5,
-              "spaceBetween": 8
-            },
-            "1100": {
-              "slidesPerView": 6,
-              "spaceBetween": 8
-            }
-          }
-        }'
-  >
-    <div class='swiper-wrapper h-auto'>
-      <!-- Item -->
-      {{#each brand}}
-        <div class='swiper-slide py-3'>
-          <a href='{{this.href}}' class='card card-body card-hover px-2 mx-2'>
-            <img
-              src='/img/brands/{{this.imgUrl}}'
-              class='d-block mx-auto my-2'
-              width='154'
-              alt='{{this.title}}'
-            />
-          </a>
-        </div>
-      {{/each}}
-
+    <div class='col-lg-7 offset-lg-1 col-md-8'>
+      <div class='row row-cols-sm-4 row-cols-2 gy-4'>
+        {{#each brand}}
+          <div class='col'>
+            <div class='position-relative text-center'>
+              <img
+                src='/img/brands/{{this.imgUrl}}'
+                width='100'
+                alt='Webby'
+                class='d-block mx-auto mb-3'
+              />
+              <a
+                href='{{this.href}}'
+                class='text-body justify-content-center fs-sm stretched-link text-decoration-none'
+              >{{this.title}}</a>
+            </div>
+          </div>
+        {{/each}}
+      </div>
     </div>
-
-    <!-- Pagination (bullets) -->
-    <div
-      class='swiper-pagination position-relative pt-3 mt-4 d-md-none d-flex'
-    ></div>
   </div>
 </section>
