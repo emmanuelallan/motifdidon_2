@@ -7,7 +7,7 @@
         <a href='index.html'><i class='bx bx-home-alt fs-lg me-1'></i>Home</a>
       </li>
       <li class='breadcrumb-item active' aria-current='page'>
-        Contacts v.1
+        Contacts
       </li>
     </ol>
   </nav>
@@ -23,13 +23,19 @@
     </div>
 
     <!-- Contact form -->
-    <form class='col-xl-7 col-md-8 offset-xl-1 needs-validation' novalidate>
+    <form
+      class='col-xl-7 col-md-8 offset-xl-1 needs-validation'
+      action='https://formspree.io/f/mgedyaok'
+      method='post'
+      novalidate
+    >
       <div class='row'>
         <div class='col-sm-6 mb-4'>
           <label for='name' class='form-label fs-base'>Name</label>
           <input
             type='text'
             id='name'
+            name='name'
             class='form-control form-control-lg'
             required
           />
@@ -40,6 +46,7 @@
           <input
             type='email'
             id='email'
+            name='email'
             class='form-control form-control-lg'
             required
           />
@@ -52,6 +59,7 @@
           <input
             type='text'
             id='phone'
+            name='phone'
             class='form-control form-control-lg'
             data-format='custom'
             data-delimiter='-'
@@ -62,11 +70,33 @@
         </div>
         <div class='col-sm-6 mb-4'>
           <label for='subject' class='form-label fs-base'>Subject</label>
-          <select id='subject' class='form-select form-select-lg' required>
-            <option value='' selected disabled>Choose subject</option>
-            <option value='Website issues'>Website issues</option>
-            <option value='Support query'>Support query</option>
-            <option value='Feature request'>Feature request</option>
+          <select
+            id='subject'
+            class='form-select form-select-lg'
+            name='service'
+            required
+          >
+            <option value='' selected disabled>
+              Select a Service
+            </option>
+            <option value='Mixing and Mastering'>
+              Mixing &amp; Mastering
+            </option>
+            <option value='Vocal Recording'>
+              Vocal Recording
+            </option>
+            <option value='Jingles and Audio Branding'>
+              Jingles &amp; Audio Branding
+            </option>
+            <option value='Instrumental Production'>
+              Instrumental Production
+            </option>
+            <option value='Video and Photography'>
+              Video &amp; Photography
+            </option>
+            <option value='Podcasts and Voice Overs'>
+              Podcast &amp; V.O
+            </option>
           </select>
           <div class='invalid-feedback'>Please choose the subject!</div>
         </div>
@@ -74,6 +104,7 @@
           <label for='message' class='form-label fs-base'>Message</label>
           <textarea
             id='message'
+            name='message'
             class='form-control form-control-lg'
             rows='4'
             required
@@ -82,7 +113,13 @@
         </div>
       </div>
       <div class='form-check mb-4'>
-        <input type='checkbox' id='terms' class='form-check-input' required />
+        <input
+          type='checkbox'
+          id='terms'
+          class='form-check-input'
+          name='agree'
+          required
+        />
         <label for='terms' class='form-check-label fs-base'>I agree to the
           <a href='#'>Terms &amp; Conditions</a></label>
       </div>
@@ -100,46 +137,54 @@
         <li class='mb-3 mb-lg-4'>
           <span class='d-block fs-sm text-muted'>Email</span>
           <a
-            href='mailto:silicon@example.com'
+            href='mailto:mkobeer@gmail.com'
             class='nav-link d-inline-block fs-lg p-0'
-          >silicon@example.com</a>
+          >mkobeer@gmail.com</a>
         </li>
         <li class='mb-3 mb-lg-4'>
           <span class='d-block fs-sm text-muted'>Phone</span>
           <a
-            href='tel:4065550120'
+            href='tel:+254726555207'
             class='nav-link d-inline-block fs-lg p-0'
-          >(406) 555-0120</a>
+          >+254 (726) 555 - 207</a>
         </li>
         <li class='mb-3 mb-lg-4'>
           <span class='d-block fs-sm text-muted'>Headquarters</span>
           <div class='text-nav fs-lg fw-medium'>
-            6391 Elgin St. Celina, Delaware 10299
+            Somewhere. Kilimani, Nairobi
           </div>
           <a href='#' class='fs-sm'>Get directions</a>
         </li>
       </ul>
       <div class='d-flex'>
         <a
-          href='#'
+          href='https://www.facebook.com/motifbeatsdon'
+          target='_blank'
+          rel='noopener noreferrer'
           class='btn btn-icon btn-outline-secondary btn-facebook mb-3 me-3'
         >
           <i class='bx bxl-facebook'></i>
         </a>
         <a
-          href='#'
+          href='https://twitter.com/MotiffDiDon'
+          target='_blank'
+          rel='noopener noreferrer'
           class='btn btn-icon btn-outline-secondary btn-twitter mb-3 me-3'
         >
           <i class='bx bxl-twitter'></i>
         </a>
         <a
-          href='#'
+          href='https://www.youtube.com/channel/UCcfEJAUkDxomVMzNHCS09ow'
+          target='_blank'
+          rel='noopener noreferrer'
           class='btn btn-icon btn-outline-secondary btn-linkedin mb-3 me-3'
         >
-          <i class='bx bxl-linkedin'></i>
+          <i class='bx bxl-youtube'></i>
         </a>
         <a
-          href='#'
+          href='https://www.instagram.com/motifdidon'
+          target='_blank'
+          rel='noopener noreferrer'
           class='btn btn-icon btn-outline-secondary btn-instagram mb-3 me-3'
         >
           <i class='bx bxl-instagram'></i>
@@ -152,7 +197,7 @@
       <div class='shadow-sm rounded-3 overflow-hidden'>
         <iframe
           class='d-block'
-          src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48698.87774279696!2d-83.10562475806614!3d40.28286124908331!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8838e5684a67f065%3A0xe0b86471f0b66d37!2sDelaware%2C%20OH%2043015%2C%20USA!5e0!3m2!1sen!2sua!4v1636376974328!5m2!1sen!2sua'
+          src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15955.173396005066!2d36.77865!3d-1.298752!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4a4fd87e6260dbe!2sAdams%20Arcade!5e0!3m2!1sen!2sus!4v1646128778316!5m2!1sen!2sus'
           height='460'
           style='border: 0'
           allowfullscreen=''
