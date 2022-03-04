@@ -13820,7 +13820,7 @@ a.badge {
   font-size: 2rem;
   text-align: center;
   line-height: 4.5rem;
-  content: '';
+  content: "\e942";
   z-index: 5;
 }
 .gallery-item .gallery-item-caption {

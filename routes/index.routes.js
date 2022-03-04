@@ -29,6 +29,10 @@ router.get('/services', function (req, res, next) {
   res.status(200).render('services', { serviceInfo });
 });
 
+router.get('/works', function (req, res, next) {
+  res.status(200).render('works', {});
+});
+
 router.get('/contact', function (req, res, next) {
   res.status(200).render('contact', {});
 });
