@@ -14,7 +14,7 @@ const socialInfo = [
   {
     href: 'https://twitter.com/MotiffDiDon',
     icon: 'bx bxl-twitter',
-    title: 'Instagram',
+    title: 'Twitter',
     username: '@MotiffDiDon',
   },
   {
