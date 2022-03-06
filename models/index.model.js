@@ -45,10 +45,10 @@ const portfolioInfo = [
     href: 'https://instagram.com/mreazi',
   },
   {
-    imgUrl: 'tanasha.png',
-    name: 'Tanasha Donna',
+    imgUrl: 'nadia.png',
+    name: 'Nadia Mukami',
     country: 'Kenya',
-    href: 'https://instagram.com/tanashadonna',
+    href: 'https://www.instagram.com/nadia_mukami',
   },
   {
     imgUrl: 'kaligraph.png',
@@ -58,10 +58,10 @@ const portfolioInfo = [
   },
 
   {
-    imgUrl: 'lava.png',
-    name: 'Lava Lava',
-    country: 'Tanzania',
-    href: 'https://instagram.com/iamlavalava',
+    imgUrl: 'alfakat.png',
+    name: 'Alfakat',
+    country: 'South Africa',
+    href: 'https://www.instagram.com/alfakat__',
   },
   {
     imgUrl: 'sarkodie.png',
@@ -133,7 +133,7 @@ const serviceInfo = [
   {
     id: 3,
     imgUrl: 'jingles.svg',
-    title: 'Jingles & Audio Branding',
+    title: 'Jingles, Audio Branding & Sound Design',
     description: `Nisi, dis sed cursus eget pellentesque mattis. Odio eu proin aliquam a. Semper bibendum tellus non tellus, facilisi dignissim in quam massa. Aliquam, feugiat ut cum tellus, sit. Quis consectetur gravida ac ac lectus cursus egestas.`,
   },
   {
@@ -159,7 +159,7 @@ const serviceInfo = [
 const showreelInfo = {
   title: 'Rayvanny Ft Nadia Mukami - Fall In Love',
   href: 'https://www.youtube.com/watch?v=fa2xzMQXbVo',
-  src: 'rayvanny.jpg',
+  src: 'falling.jpg',
 };
 
 const brandInfo = [
@@ -187,18 +187,60 @@ const brandInfo = [
 
 const projectsInfo = [
   {
-    date: 'Feb 22, 2022',
-    title: 'Falling In Love',
-    artist: 'Rayvanny Ft Nadia Mukami',
-    imgUrl: 'rayvanny.jpg',
-    ytUrl: 'https://www.youtube.com/watch?v=fa2xzMQXbVo',
+    date: '30 Jan 2020',
+    title: 'YES BANA',
+    artist: 'Kaligraph Jones Ft Bien (Sauti Sol)',
+    imgUrl: 'yes_bana.jpg',
+    ytUrl: 'https://www.youtube.com/-ik5qvpMpq0',
   },
   {
-    date: 'Nov 9, 2021',
+    date: '2 Jan 2019',
+    title: 'Kiboko',
+    artist: 'Masauti',
+    imgUrl: 'kiboko.jpg',
+    ytUrl: 'https://www.youtube.com/HaomQA_sttA',
+  },
+  {
+    date: '23 Dec 2020',
+    title: 'Kalypso',
+    artist: 'Tanasha Donna X Khaligraph Jones X Motif',
+    imgUrl: 'kalypso.jpg',
+    ytUrl: 'https://youtu.be/d4w5HA_CZxI',
+  },
+  {
+    date: '15 Apr 2021',
+    title: 'Alaa!!!!!!!!!',
+    artist: "Dantez 254 feat. Rekles, Trio Mio, Odi Wa Murang'a ,VDJ Jones",
+    imgUrl: 'ala.jpg',
+    ytUrl: 'https://youtu.be/xj_oDJmfpj0',
+  },
+  {
+    date: '10 Feb 2022',
+    title: 'Fall in Love',
+    artist: 'Rayvanny Ft Nadia Mukami',
+    imgUrl: 'falling.jpg',
+    ytUrl: 'https://youtu.be/fa2xzMQXbVo',
+  },
+  {
+    date: '11 Jan 2021',
     title: 'Wavy',
-    artist: 'Khaligraph Jones x Sarkodie',
-    imgUrl: 'kali.jpg',
-    ytUrl: 'https://www.youtube.com/watch?v=fa2xzMQXbVo',
+    artist: 'Khaligraph Jones Ft Sarkodie',
+    imgUrl: 'wavy.jpg',
+    ytUrl: 'https://youtu.be/EBFXrZY3dL4',
+  },
+  {
+    date: '14 Feb 2020',
+    title: 'Daktari',
+    artist: 'Ethic Entertainment',
+    imgUrl: 'daktari.jpg',
+    ytUrl: 'https://youtu.be/EBFXrZY3dL4',
+  },
+  {
+    date: '6 Oct 2021',
+    title: 'Back it Up',
+    artist: 'Nameless and Wahu',
+    imgUrl: 'back_it_up.jpg',
+    ytUrl: 'https://youtu.be/0sJKtB8jeFc',
   },
 ];
 
