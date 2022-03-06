@@ -1,0 +1,68 @@
+<!-- Related podcasts (Slider below xl breakpoint) -->
+<section class='container mb-5 pt-md-4'>
+  <div
+    class='d-flex flex-sm-row flex-column align-items-center justify-content-start mb-4 pb-1 pb-md-3'
+  >
+    <h2 class='h1 mb-sm-0'>Related Works</h2>
+  </div>
+
+  <!-- Carousel -->
+  <div
+    class='swiper'
+    data-swiper-options='{
+          "slidesPerView": 1,
+          "spaceBetween": 24,
+          "pagination": {
+            "el": ".swiper-pagination",
+            "clickable": true
+          },
+          "breakpoints": {
+            "500": {
+              "slidesPerView": 2
+            },
+            "768": {
+              "slidesPerView": 3
+            },
+            "1000": {
+              "slidesPerView": 3
+            },
+            "1200": {
+              "slidesPerView": 4
+            }
+          }
+        }'
+  >
+    <div class='swiper-wrapper h-auto'>
+
+      {{#each work}}
+        <!-- Item -->
+        <div class='swiper-slide h-auto pb-3'>
+          <article>
+            <div class='d-block position-relative rounded-3 mb-3'>
+              <span
+                class='badge bg-dark position-absolute bottom-0 end-0 zindex-2 mb-3 me-3'
+              >{{this.date}}</span>
+              <img
+                src='/img/projects/{{this.imgUrl}}'
+                class='rounded-3'
+                alt='Image'
+              />
+
+            </div>
+            <div class='d-flex align-items-center justify-content-center mb-2'>
+              <a
+                href='{{this.ytUrl}}'
+                class='badge fs-sm text-nav text-center bg-secondary text-decoration-none text-wrap'
+              >{{this.title}}
+                <br />
+                <span class='d-block mt-2'>{{this.artist}}</span></a>
+            </div>
+          </article>
+        </div>
+      {{/each}}
+    </div>
+
+    <!-- Pagination (bullets) -->
+    <div class='swiper-pagination position-relative pt-2 pt-sm-3 mt-4'></div>
+  </div>
+</section>

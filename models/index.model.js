@@ -187,20 +187,16 @@ const brandInfo = [
 
 const projectsInfo = [
   {
-    data: 'Feb 22, 2022',
-    title: 'Rayvanny Ft Nadia Mukami - Fall In Love',
-    country: 'Tanzania ft Kenya',
-    description:
-      'Rayvanny came to the studio and natoque purus ipsum nunc, velit cras tellus. Maecenas viverra pellentesque at ultrices purus vitae quis erat volutpat. Turpis auctor neque bibendum id pellentesque ut egestas. Donec ut faucibus nisl nec at purus. Cursus vel gravida gravida purus varius feugiat.Semper mauris id adipiscing est. Nam leo rutrum gravida curabitur at vel risus.',
+    date: 'Feb 22, 2022',
+    title: 'Falling In Love',
+    artist: 'Rayvanny Ft Nadia Mukami',
     imgUrl: 'rayvanny.jpg',
     ytUrl: 'https://www.youtube.com/watch?v=fa2xzMQXbVo',
   },
   {
-    data: 'Nov 9, 2021',
-    title: 'Khaligraph Jones x Sarkodie - Wavy',
-    country: 'Kenya ft Ghana',
-    description:
-      'Malesuada eu cursus natoque purus ipsum nunc, velit cras tellus. Maecenas viverra pellentesque at ultrices purus vitae quis erat volutpat. Turpis auctor neque bibendum id pellentesque ut egestas. Donec ut faucibus nisl nec at purus. Cursus vel gravida gravida purus varius feugiat.Semper mauris id adipiscing est. Nam leo rutrum gravida curabitur at vel risus.',
+    date: 'Nov 9, 2021',
+    title: 'Wavy',
+    artist: 'Khaligraph Jones x Sarkodie',
     imgUrl: 'kali.jpg',
     ytUrl: 'https://www.youtube.com/watch?v=fa2xzMQXbVo',
   },

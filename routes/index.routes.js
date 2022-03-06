@@ -6,6 +6,7 @@ const {
   testimonyInfo,
   serviceInfo,
   showreelInfo,
+  projectsInfo,
   brandInfo,
 } = require('../models/index.model');
 
@@ -13,7 +14,6 @@ const {
 router.get('/', function (req, res, next) {
   res.status(200).render('index', {
     socialInfo,
-    portfolioInfo,
     testimonyInfo,
     serviceInfo,
     showreelInfo,
@@ -23,7 +23,12 @@ router.get('/', function (req, res, next) {
 });
 
 router.get('/about', function (req, res, next) {
-  res.status(200).render('about', { title: 'About Me' });
+  res.status(200).render('about', {
+    title: 'About Me',
+    showreelInfo,
+    portfolioInfo,
+    projectsInfo,
+  });
 });
 
 router.get('/services', function (req, res, next) {
