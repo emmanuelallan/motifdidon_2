@@ -6,6 +6,7 @@ const {
   testimonyInfo,
   serviceInfo,
   showreelInfo,
+  projectsInfo,
   brandInfo,
 } = require('../models/index.model');
 
@@ -13,28 +14,37 @@ const {
 router.get('/', function (req, res, next) {
   res.status(200).render('index', {
     socialInfo,
-    portfolioInfo,
     testimonyInfo,
     serviceInfo,
     showreelInfo,
     brandInfo,
+    title: 'Music Producer & Audio Engineer',
   });
 });
 
 router.get('/about', function (req, res, next) {
-  res.status(200).render('about', {});
+  res.status(200).render('about', {
+    title: 'About Me',
+    showreelInfo,
+    portfolioInfo,
+    projectsInfo,
+  });
 });
 
 router.get('/services', function (req, res, next) {
-  res.status(200).render('services', { serviceInfo });
+  res.status(200).render('services', { title: 'Services', serviceInfo });
 });
 
-router.get('/works', function (req, res, next) {
-  res.status(200).render('works', {});
+router.get('/iconik', function (req, res, next) {
+  res.status(200).render('iconik', { title: 'Iconik Sounds Studio' });
 });
 
 router.get('/contact', function (req, res, next) {
-  res.status(200).render('contact', {});
+  res.status(200).render('contact', { title: 'Contact Me' });
+});
+
+router.get('/coming_soon', function (req, res, next) {
+  res.status(200).render('coming_soon', { title: 'Coming Soon' });
 });
 
 module.exports = router;
