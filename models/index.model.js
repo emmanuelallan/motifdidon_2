@@ -120,8 +120,8 @@ const testimonyInfo = [
 const serviceInfo = [
   {
     id: 1,
-    imgUrl: 'mixing.svg',
-    title: 'Mixing & Mastering',
+    imgUrl: 'jingles.svg',
+    title: 'Jingles, Audio Branding & Sound Design',
     description: `Nisi, dis sed cursus eget pellentesque mattis. Odio eu proin aliquam a. Semper bibendum tellus non tellus, facilisi dignissim in quam massa. Aliquam, feugiat ut cum tellus, sit. Quis consectetur gravida ac ac lectus cursus egestas.`,
   },
   {
@@ -132,8 +132,8 @@ const serviceInfo = [
   },
   {
     id: 3,
-    imgUrl: 'jingles.svg',
-    title: 'Jingles, Audio Branding & Sound Design',
+    imgUrl: 'mixing.svg',
+    title: 'Mixing & Mastering',
     description: `Nisi, dis sed cursus eget pellentesque mattis. Odio eu proin aliquam a. Semper bibendum tellus non tellus, facilisi dignissim in quam massa. Aliquam, feugiat ut cum tellus, sit. Quis consectetur gravida ac ac lectus cursus egestas.`,
   },
   {
