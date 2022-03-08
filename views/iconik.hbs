@@ -5,7 +5,7 @@
   ></span>
   <div
     class='jarallax-img'
-    style='background-image: url(/img/about/cover02.jpg)'
+    style='background-image: url(/img/bgs/iconik.png)'
   ></div>
   <div class='d-none d-xxl-block' style='height: 700px'></div>
   <div class='d-none d-md-block d-xxl-none' style='height: 550px'></div>
@@ -80,83 +80,114 @@
       }
     }'
   >
-    <div class='swiper-wrapper h-auto'>
+    <div class='swiper-wrapper h-auto justify-content-center'>
       <!-- Item -->
-      <div class='swiper-slide py-3'>
-        <a href='#' class='card card-body card-hover px-2 mx-2'>
-          <img
-            src='assets/img/brands/01.svg'
-            class='d-block mx-auto my-2'
-            width='154'
-            alt='Brand'
-          />
-        </a>
-      </div>
-
-      <!-- Item -->
-      <div class='swiper-slide py-3'>
-        <a href='#' class='card card-body card-hover px-2 mx-2'>
-          <img
-            src='assets/img/brands/02.svg'
-            class='d-block mx-auto my-2'
-            width='154'
-            alt='Brand'
-          />
-        </a>
-      </div>
-
-      <!-- Item -->
-      <div class='swiper-slide py-3'>
-        <a href='#' class='card card-body card-hover px-2 mx-2'>
-          <img
-            src='assets/img/brands/03.svg'
-            class='d-block mx-auto my-2'
-            width='154'
-            alt='Brand'
-          />
-        </a>
-      </div>
-
-      <!-- Item -->
-      <div class='swiper-slide py-3'>
-        <a href='#' class='card card-body card-hover px-2 mx-2'>
-          <img
-            src='assets/img/brands/04.svg'
-            class='d-block mx-auto my-2'
-            width='154'
-            alt='Brand'
-          />
-        </a>
-      </div>
-
-      <!-- Item -->
-      <div class='swiper-slide py-3'>
-        <a href='#' class='card card-body card-hover px-2 mx-2'>
-          <img
-            src='assets/img/brands/05.svg'
-            class='d-block mx-auto my-2'
-            width='154'
-            alt='Brand'
-          />
-        </a>
-      </div>
-
-      <!-- Item -->
-      <div class='swiper-slide py-3'>
-        <a href='#' class='card card-body card-hover px-2 mx-2'>
-          <img
-            src='assets/img/brands/06.svg'
-            class='d-block mx-auto my-2'
-            width='154'
-            alt='Brand'
-          />
-        </a>
-      </div>
+      {{#each brandInfo}}
+        <div class='swiper-slide py-3'>
+          <a href='{{this.href}}' class='card card-body card-hover px-2 mx-2'>
+            <img
+              src='/img/brands/{{this.imgUrl}}'
+              class='d-block mx-auto my-2'
+              width='154'
+              alt='{{this.title}}'
+            />
+          </a>
+        </div>
+      {{/each}}
     </div>
 
     <!-- Pagination (bullets) -->
     <div class='swiper-pagination position-relative pt-2 mt-4'></div>
   </div>
+</section>
+
+<!-- Portfolio list -->
+<section class='container pb-2 pb-lg-3'>
+  {{#each iconikInfo}}
+    {{#if this.left}}
+      <!-- Item -->
+      <div class='row pb-5 mb-md-4 mb-lg-5'>
+        <div
+          class='col-md-6 pb-1 mb-3 pb-md-0 mb-md-0'
+          data-jarallax-element='-25'
+          data-disable-parallax-down='md'
+        >
+          <iframe
+            width='560'
+            height='315'
+            class='rounded-3'
+            src='https://www.youtube.com/embed/{{this.videoId}}?controls=0'
+            title='YouTube video player'
+            frameborder='0'
+            allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div
+          class='col-md-6'
+          data-jarallax-element='25'
+          data-disable-parallax-down='md'
+        >
+          <div class='ps-md-4 ms-md-2'>
+            <div class='fs-sm text-muted mb-1'>{{this.date}}</div>
+            <h2 class='h3'>{{this.title}}</h2>
+            <a
+              href='#'
+              class='d-table badge bg-faded-primary text-primary fs-sm mb-3'
+            >{{this.client}}</a>
+            <p
+              class='d-md-none d-lg-block pb-3 mb-2 mb-md-3'
+            >{{this.description}}</p>
+            <a
+              href='{{this.companyUrl}}'
+              class='btn btn-outline-primary'
+            >Company Info</a>
+          </div>
+        </div>
+      </div>
+    {{else}}
+      <!-- Item -->
+      <div class='row pb-5 mb-md-4 mb-lg-5'>
+        <div
+          class='col-md-6'
+          data-jarallax-element='25'
+          data-disable-parallax-down='md'
+        >
+          <div class='ps-md-4 ms-md-2'>
+            <div class='fs-sm text-muted mb-1'>{{this.date}}</div>
+            <h2 class='h3'>{{this.title}}</h2>
+            <a
+              href='#'
+              class='d-table badge bg-faded-primary text-primary fs-sm mb-3'
+            >{{this.client}}</a>
+            <p
+              class='d-md-none d-lg-block pb-3 mb-2 mb-md-3'
+            >{{this.description}}</p>
+            <a
+              href='{{this.companyUrl}}'
+              class='btn btn-outline-primary'
+            >Company Info</a>
+          </div>
+        </div>
+        <div
+          class='col-md-6 pb-1 mb-3 pb-md-0 mb-md-0'
+          data-jarallax-element='-25'
+          data-disable-parallax-down='md'
+        >
+          <iframe
+            width='560'
+            height='315'
+            class='rounded-3'
+            src='https://www.youtube.com/embed/{{this.videoId}}?controls=0'
+            title='YouTube video player'
+            frameborder='0'
+            allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    {{/if}}
+  {{/each}}
 </section>
 
 <!-- Contact form -->
@@ -169,23 +200,30 @@
         <p class='lead mb-2 mb-md-3'>Ready to get started?</p>
         <h2 class='h1 pb-3'>Don’t Hesitate to Contact Us</h2>
       </div>
-      <form class='col-lg-6 col-md-7 offset-xl-1 needs-validation' novalidate>
+      <form
+        class='col-lg-6 col-md-7 offset-xl-1 needs-validation'
+        action='https://formspree.io/f/mgedyaok'
+        method='post'
+        novalidate
+      >
         <div class='row'>
           <div class='col-sm-6 mb-4'>
-            <label for='name' class='form-label fs-base'>Full name</label>
+            <label for='name' class='form-label fs-base'>Full name / Company</label>
             <input
               type='text'
               id='name'
+              name='company'
               class='form-control form-control-lg'
               required
             />
-            <div class='invalid-feedback'>Please enter your name!</div>
+            <div class='invalid-feedback'>Please enter the name!</div>
           </div>
           <div class='col-sm-6 mb-4'>
             <label for='email' class='form-label fs-base'>Email</label>
             <input
               type='email'
               id='email'
+              name='email'
               class='form-control form-control-lg'
               required
             />
@@ -197,6 +235,7 @@
             <label for='message' class='form-label fs-base'>Message</label>
             <textarea
               id='message'
+              name='message'
               class='form-control form-control-lg'
               rows='4'
               required

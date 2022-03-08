@@ -244,6 +244,41 @@ const projectsInfo = [
   },
 ];
 
+const iconikInfo = [
+  {
+    title: 'Safaricom New Mpesa App',
+    date: 'Jun 23, 2021',
+    client: 'Safaricom PLC',
+    description:
+      'Malesuada eu cursus natoque purus ipsum nunc, velit cras tellus. Maecenas viverra pellentesque at ultrices purus vitae quis erat volutpat. Turpis auctor neque bibendum id pellentesque ut egestas. Donec ut faucibus nisl nec at purus. Cursus vel gravida gravida purus varius feugiat.Semper mauris id adipiscing est. Nam leo rutrum gravida curabitur at vel risus.',
+    companyUrl: 'https://www.safaricom.co.ke/personal/',
+    videoId: 'W-9-7FcRA84',
+    left: true,
+  },
+
+  {
+    title: 'NCBA Stats Ad',
+    date: 'Mar 23, 2021',
+    client: 'NCBA Group PLC',
+    description:
+      'Malesuada eu cursus natoque purus ipsum nunc, velit cras tellus. Maecenas viverra pellentesque at ultrices purus vitae quis erat volutpat. Turpis auctor neque bibendum id pellentesque ut egestas. Donec ut faucibus nisl nec at purus. Cursus vel gravida gravida purus varius feugiat.Semper mauris id adipiscing est. Nam leo rutrum gravida curabitur at vel risus.',
+    companyUrl: 'https://ke.ncbagroup.com/',
+    videoId: 'hD_YPL5SsLQ',
+    left: false,
+  },
+
+  {
+    title: 'Safaricom Mpesa USSD *334#',
+    date: 'Oct 28, 2020',
+    client: 'Safaricom PLC',
+    description:
+      'Malesuada eu cursus natoque purus ipsum nunc, velit cras tellus. Maecenas viverra pellentesque at ultrices purus vitae quis erat volutpat. Turpis auctor neque bibendum id pellentesque ut egestas. Donec ut faucibus nisl nec at purus. Cursus vel gravida gravida purus varius feugiat.Semper mauris id adipiscing est. Nam leo rutrum gravida curabitur at vel risus.',
+    companyUrl: 'https://www.safaricom.co.ke/personal/',
+    videoId: 'pIVsequoTVc',
+    left: true,
+  },
+];
+
 module.exports = {
   socialInfo,
   portfolioInfo,
@@ -252,4 +287,5 @@ module.exports = {
   showreelInfo,
   brandInfo,
   projectsInfo,
+  iconikInfo,
 };
