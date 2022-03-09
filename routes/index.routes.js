@@ -9,6 +9,7 @@ const {
   projectsInfo,
   brandInfo,
   iconikInfo,
+  iconikAudio,
 } = require('../models/index.model');
 
 /* GET users listing. */
@@ -37,9 +38,12 @@ router.get('/services', function (req, res, next) {
 });
 
 router.get('/iconik', function (req, res, next) {
-  res
-    .status(200)
-    .render('iconik', { title: 'Iconik Sounds Studio', brandInfo, iconikInfo });
+  res.status(200).render('iconik', {
+    title: 'Iconik Sounds Studio',
+    brandInfo,
+    iconikInfo,
+    iconikAudio,
+  });
 });
 
 router.get('/contact', function (req, res, next) {

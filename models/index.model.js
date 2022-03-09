@@ -120,36 +120,42 @@ const testimonyInfo = [
 const serviceInfo = [
   {
     id: 1,
+    imgUrl: 'sound_design.svg',
+    title: 'Sound Design',
+    description: `Nisi, dis sed cursus eget pellentesque mattis. Odio eu proin aliquam a. Semper bibendum tellus non tellus, facilisi dignissim in quam massa. Aliquam, feugiat ut cum tellus, sit. Quis consectetur gravida ac ac lectus cursus egestas.`,
+  },
+  {
+    id: 2,
     imgUrl: 'jingles.svg',
     title: 'Jingles, Audio Branding & Sound Design',
     description: `Nisi, dis sed cursus eget pellentesque mattis. Odio eu proin aliquam a. Semper bibendum tellus non tellus, facilisi dignissim in quam massa. Aliquam, feugiat ut cum tellus, sit. Quis consectetur gravida ac ac lectus cursus egestas.`,
   },
   {
-    id: 2,
+    id: 3,
     imgUrl: 'vocals.svg',
     title: 'Vocal Recording',
     description: `Nisi, dis sed cursus eget pellentesque mattis. Odio eu proin aliquam a. Semper bibendum tellus non tellus, facilisi dignissim in quam massa. Aliquam, feugiat ut cum tellus, sit. Quis consectetur gravida ac ac lectus cursus egestas.`,
   },
   {
-    id: 3,
+    id: 4,
     imgUrl: 'mixing.svg',
     title: 'Mixing & Mastering',
     description: `Nisi, dis sed cursus eget pellentesque mattis. Odio eu proin aliquam a. Semper bibendum tellus non tellus, facilisi dignissim in quam massa. Aliquam, feugiat ut cum tellus, sit. Quis consectetur gravida ac ac lectus cursus egestas.`,
   },
   {
-    id: 4,
+    id: 5,
     imgUrl: 'instrumental.svg',
     title: 'Instrumental Production',
     description: `Nisi, dis sed cursus eget pellentesque mattis. Odio eu proin aliquam a. Semper bibendum tellus non tellus, facilisi dignissim in quam massa. Aliquam, feugiat ut cum tellus, sit. Quis consectetur gravida ac ac lectus cursus egestas.`,
   },
   {
-    id: 5,
+    id: 6,
     imgUrl: 'video.svg',
     title: 'Video and Photography',
     description: `Nisi, dis sed cursus eget pellentesque mattis. Odio eu proin aliquam a. Semper bibendum tellus non tellus, facilisi dignissim in quam massa. Aliquam, feugiat ut cum tellus, sit. Quis consectetur gravida ac ac lectus cursus egestas.`,
   },
   {
-    id: 6,
+    id: 7,
     imgUrl: 'pod.svg',
     title: 'Podcasts and V.O',
     description: `Nisi, dis sed cursus eget pellentesque mattis. Odio eu proin aliquam a. Semper bibendum tellus non tellus, facilisi dignissim in quam massa. Aliquam, feugiat ut cum tellus, sit. Quis consectetur gravida ac ac lectus cursus egestas.`,
@@ -279,6 +285,59 @@ const iconikInfo = [
   },
 ];
 
+const iconikAudio = [
+  {
+    title: 'KCB Chama',
+    date: 'Oct 28, 2020',
+    client: 'KCB PLC',
+    description:
+      'Malesuada eu cursus natoque purus ipsum nunc, velit cras tellus. Maecenas viverra pellentesque at ultrices purus vitae quis erat volutpat. Turpis auctor neque bibendum id pellentesque ut egestas. Donec ut faucibus nisl nec at purus. Cursus vel gravida gravida purus varius feugiat.Semper mauris id adipiscing est. Nam leo rutrum gravida curabitur at vel risus.',
+    companyUrl: 'https://www.safaricom.co.ke/personal/',
+    audio: 'kcb.wav',
+    left: true,
+  },
+  {
+    title: 'KRA Volunteery Tax',
+    date: 'Oct 28, 2020',
+    client: 'KRA',
+    description:
+      'Malesuada eu cursus natoque purus ipsum nunc, velit cras tellus. Maecenas viverra pellentesque at ultrices purus vitae quis erat volutpat. Turpis auctor neque bibendum id pellentesque ut egestas. Donec ut faucibus nisl nec at purus. Cursus vel gravida gravida purus varius feugiat.Semper mauris id adipiscing est. Nam leo rutrum gravida curabitur at vel risus.',
+    companyUrl: 'https://www.safaricom.co.ke/personal/',
+    audio: 'kra.mp3',
+    left: false,
+  },
+  {
+    title: 'Safaricom Zuri',
+    date: 'Oct 28, 2020',
+    client: 'Safaricom LLC',
+    description:
+      'Malesuada eu cursus natoque purus ipsum nunc, velit cras tellus. Maecenas viverra pellentesque at ultrices purus vitae quis erat volutpat. Turpis auctor neque bibendum id pellentesque ut egestas. Donec ut faucibus nisl nec at purus. Cursus vel gravida gravida purus varius feugiat.Semper mauris id adipiscing est. Nam leo rutrum gravida curabitur at vel risus.',
+    companyUrl: 'https://www.safaricom.co.ke/personal/',
+    audio: 'safaricom.mp3',
+    left: true,
+  },
+  {
+    title: 'Shell Hilux',
+    date: 'Oct 28, 2020',
+    client: 'Shell LLC',
+    description:
+      'Malesuada eu cursus natoque purus ipsum nunc, velit cras tellus. Maecenas viverra pellentesque at ultrices purus vitae quis erat volutpat. Turpis auctor neque bibendum id pellentesque ut egestas. Donec ut faucibus nisl nec at purus. Cursus vel gravida gravida purus varius feugiat.Semper mauris id adipiscing est. Nam leo rutrum gravida curabitur at vel risus.',
+    companyUrl: 'https://www.safaricom.co.ke/personal/',
+    audio: 'shell.mp3',
+    left: false,
+  },
+  {
+    title: 'NCBA SME',
+    date: 'Oct 28, 2020',
+    client: 'NCBA LLC',
+    description:
+      'Malesuada eu cursus natoque purus ipsum nunc, velit cras tellus. Maecenas viverra pellentesque at ultrices purus vitae quis erat volutpat. Turpis auctor neque bibendum id pellentesque ut egestas. Donec ut faucibus nisl nec at purus. Cursus vel gravida gravida purus varius feugiat.Semper mauris id adipiscing est. Nam leo rutrum gravida curabitur at vel risus.',
+    companyUrl: 'https://www.safaricom.co.ke/personal/',
+    audio: 'ncba.mp3',
+    left: true,
+  },
+];
+
 module.exports = {
   socialInfo,
   portfolioInfo,
@@ -288,4 +347,5 @@ module.exports = {
   brandInfo,
   projectsInfo,
   iconikInfo,
+  iconikAudio,
 };

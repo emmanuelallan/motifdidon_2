@@ -103,6 +103,7 @@
 
 <!-- Portfolio list -->
 <section class='container pb-2 pb-lg-3'>
+  <h2 class='pb-md-2 mb-5'>Tv Jingles</h2>
   {{#each iconikInfo}}
     {{#if this.left}}
       <!-- Item -->
@@ -188,6 +189,152 @@
       </div>
     {{/if}}
   {{/each}}
+
+  {{! audio ads }}
+  <h2 class='pb-md-2 mb-5'>Radio Jingles</h2>
+
+  {{#each iconikAudio}}
+    {{#if left}}
+      <!-- Item -->
+      <div class='row pb-5 mb-md-4 mb-lg-5'>
+        <div
+          class='col-md-6'
+          data-jarallax-element='25'
+          data-disable-parallax-down='md'
+        >
+          <div class='ps-md-4 ms-md-2'>
+            <div class='fs-sm text-muted mb-1'>{{this.date}}</div>
+            <h2 class='h3'>{{this.title}}</h2>
+            <a
+              href='#'
+              class='d-table badge bg-faded-primary text-primary fs-sm mb-3'
+            >{{this.company}}</a>
+            <p
+              class='d-md-none d-lg-block pb-3 mb-2 mb-md-3'
+            >{{this.description}}</p>
+            <a
+              href='{{this.companyUrl}}'
+              class='btn btn-outline-primary'
+            >Company Info</a>
+          </div>
+        </div>
+        <div
+          class='col-md-6 pb-1 mb-3 pb-md-0 mb-md-0'
+          data-jarallax-element='-25'
+          data-disable-parallax-down='md'
+        >
+          <div class='card p-lg-4 p-md-2 mb-4 mt-5 mb-lg-5'>
+
+            <!-- Audio player -->
+            <div class='audio-player card-body p-2 p-sm-4'>
+              <audio src='/audio/{{this.audio}}' preload='auto'></audio>
+              <button
+                type='button'
+                class='ap-play-button btn btn-icon btn-primary shadow-primary'
+              ></button>
+              <span
+                class='ap-current-time flex-shr fw-medium mx-3 mx-lg-4'
+              >0:00</span>
+              <input type='range' class='ap-seek-slider' max='100' value='0' />
+              <span
+                class='ap-duration flex-shr fw-medium mx-3 mx-lg-4'
+              >0:00</span>
+              <div class='dropup'>
+                <button
+                  type='button'
+                  class='ap-volume-button btn btn-icon btn-secondary'
+                  data-bs-toggle='dropdown'
+                  data-bs-auto-close='outside'
+                  aria-haspopup='true'
+                  aria-expanded='false'
+                >
+                  <i class='bx bx-volume-full'></i>
+                </button>
+                <div class='dropdown-menu dropdown-menu-dark my-1'>
+                  <input
+                    type='range'
+                    class='ap-volume-slider'
+                    max='100'
+                    value='100'
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    {{else}}
+      <!-- Item -->
+      <div class='row pb-5 mb-md-4 mb-lg-5'>
+        <div
+          class='col-md-6 pb-1 mb-3 pb-md-0 mb-md-0'
+          data-jarallax-element='-25'
+          data-disable-parallax-down='md'
+        >
+          <div class='card p-lg-4 p-md-2 mb-4 mt-5 mb-lg-5'>
+
+            <!-- Audio player -->
+            <div class='audio-player card-body p-2 p-sm-4'>
+              <audio src='/audio/{{this.audio}}' preload='auto'></audio>
+              <button
+                type='button'
+                class='ap-play-button btn btn-icon btn-primary shadow-primary'
+              ></button>
+              <span
+                class='ap-current-time flex-shr fw-medium mx-3 mx-lg-4'
+              >0:00</span>
+              <input type='range' class='ap-seek-slider' max='100' value='0' />
+              <span
+                class='ap-duration flex-shr fw-medium mx-3 mx-lg-4'
+              >0:00</span>
+              <div class='dropup'>
+                <button
+                  type='button'
+                  class='ap-volume-button btn btn-icon btn-secondary'
+                  data-bs-toggle='dropdown'
+                  data-bs-auto-close='outside'
+                  aria-haspopup='true'
+                  aria-expanded='false'
+                >
+                  <i class='bx bx-volume-full'></i>
+                </button>
+                <div class='dropdown-menu dropdown-menu-dark my-1'>
+                  <input
+                    type='range'
+                    class='ap-volume-slider'
+                    max='100'
+                    value='100'
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class='col-md-6'
+          data-jarallax-element='25'
+          data-disable-parallax-down='md'
+        >
+          <div class='ps-md-4 ms-md-2'>
+            <div class='fs-sm text-muted mb-1'>{{this.date}}</div>
+            <h2 class='h3'>{{this.title}}</h2>
+            <a
+              href='#'
+              class='d-table badge bg-faded-primary text-primary fs-sm mb-3'
+            >{{this.company}}</a>
+            <p
+              class='d-md-none d-lg-block pb-3 mb-2 mb-md-3'
+            >{{this.description}}</p>
+            <a
+              href='{{this.companyUrl}}'
+              class='btn btn-outline-primary'
+            >Company Info</a>
+          </div>
+        </div>
+      </div>
+    {{/if}}
+  {{/each}}
+
 </section>
 
 <!-- Contact form -->
