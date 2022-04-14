@@ -122,43 +122,43 @@ const serviceInfo = [
     id: 1,
     imgUrl: 'sound_design.svg',
     title: 'Sound Design',
-    description: `Nisi, dis sed cursus eget pellentesque mattis. Odio eu proin aliquam a. Semper bibendum tellus non tellus, facilisi dignissim in quam massa. Aliquam, feugiat ut cum tellus, sit. Quis consectetur gravida ac ac lectus cursus egestas.`,
+    description: `We create original sound tracks for a variety of needs including radio adverts, television adverts, video game development, sound recording reproduction and post-production.`,
   },
   {
     id: 2,
     imgUrl: 'jingles.svg',
     title: 'Jingles, Audio Branding & Sound Design',
-    description: `Nisi, dis sed cursus eget pellentesque mattis. Odio eu proin aliquam a. Semper bibendum tellus non tellus, facilisi dignissim in quam massa. Aliquam, feugiat ut cum tellus, sit. Quis consectetur gravida ac ac lectus cursus egestas.`,
+    description: `Jingles are the best way to audio brand a product and make it memorable. We write catchy hooks with lyrics that promote the product or service being advertised, usually through the use of one or more advertising slogans.`,
   },
   {
     id: 3,
     imgUrl: 'vocals.svg',
     title: 'Vocal Recording',
-    description: `Nisi, dis sed cursus eget pellentesque mattis. Odio eu proin aliquam a. Semper bibendum tellus non tellus, facilisi dignissim in quam massa. Aliquam, feugiat ut cum tellus, sit. Quis consectetur gravida ac ac lectus cursus egestas.`,
+    description: `We offer all your music vocal recording needs charged per hour basis.`,
   },
   {
     id: 4,
     imgUrl: 'mixing.svg',
     title: 'Mixing & Mastering',
-    description: `Nisi, dis sed cursus eget pellentesque mattis. Odio eu proin aliquam a. Semper bibendum tellus non tellus, facilisi dignissim in quam massa. Aliquam, feugiat ut cum tellus, sit. Quis consectetur gravida ac ac lectus cursus egestas.`,
+    description: `We offer industry standard music mixing and mastering that is ready for distribution.`,
   },
   {
     id: 5,
     imgUrl: 'instrumental.svg',
     title: 'Instrumental Production',
-    description: `Nisi, dis sed cursus eget pellentesque mattis. Odio eu proin aliquam a. Semper bibendum tellus non tellus, facilisi dignissim in quam massa. Aliquam, feugiat ut cum tellus, sit. Quis consectetur gravida ac ac lectus cursus egestas.`,
+    description: `We make custom beats for afro beats, hip hop, mombahtone and dancehall.`,
   },
   {
     id: 6,
     imgUrl: 'video.svg',
     title: 'Video and Photography',
-    description: `Nisi, dis sed cursus eget pellentesque mattis. Odio eu proin aliquam a. Semper bibendum tellus non tellus, facilisi dignissim in quam massa. Aliquam, feugiat ut cum tellus, sit. Quis consectetur gravida ac ac lectus cursus egestas.`,
+    description: `We offer video and photography with our inhouse experienced team.`,
   },
   {
     id: 7,
     imgUrl: 'pod.svg',
     title: 'Podcasts and V.O',
-    description: `Nisi, dis sed cursus eget pellentesque mattis. Odio eu proin aliquam a. Semper bibendum tellus non tellus, facilisi dignissim in quam massa. Aliquam, feugiat ut cum tellus, sit. Quis consectetur gravida ac ac lectus cursus egestas.`,
+    description: `We offer voice over services for radio, television production, filmmaking, theatre, or other presentations. We have a wide variety of experienced talents ready to work with you.`,
   },
 ];
 
@@ -255,8 +255,7 @@ const iconikInfo = [
     title: 'Safaricom New Mpesa App',
     date: 'Jun 23, 2021',
     client: 'Safaricom PLC',
-    description:
-      'Malesuada eu cursus natoque purus ipsum nunc, velit cras tellus. Maecenas viverra pellentesque at ultrices purus vitae quis erat volutpat. Turpis auctor neque bibendum id pellentesque ut egestas. Donec ut faucibus nisl nec at purus. Cursus vel gravida gravida purus varius feugiat.Semper mauris id adipiscing est. Nam leo rutrum gravida curabitur at vel risus.',
+    description: 'We did sound design and voice over for safaricom mpesa app.',
     companyUrl: 'https://www.safaricom.co.ke/personal/',
     videoId: 'W-9-7FcRA84',
     left: true,
@@ -278,7 +277,7 @@ const iconikInfo = [
     date: 'Oct 28, 2020',
     client: 'Safaricom PLC',
     description:
-      'Malesuada eu cursus natoque purus ipsum nunc, velit cras tellus. Maecenas viverra pellentesque at ultrices purus vitae quis erat volutpat. Turpis auctor neque bibendum id pellentesque ut egestas. Donec ut faucibus nisl nec at purus. Cursus vel gravida gravida purus varius feugiat.Semper mauris id adipiscing est. Nam leo rutrum gravida curabitur at vel risus.',
+      'We recorded voice over for safaricom mpesa *334# campaign and did the sound design.',
     companyUrl: 'https://www.safaricom.co.ke/personal/',
     videoId: 'pIVsequoTVc',
     left: true,
@@ -300,8 +299,7 @@ const iconikAudio = [
     title: 'KRA Volunteery Tax',
     date: 'Oct 28, 2020',
     client: 'KRA',
-    description:
-      'Malesuada eu cursus natoque purus ipsum nunc, velit cras tellus. Maecenas viverra pellentesque at ultrices purus vitae quis erat volutpat. Turpis auctor neque bibendum id pellentesque ut egestas. Donec ut faucibus nisl nec at purus. Cursus vel gravida gravida purus varius feugiat.Semper mauris id adipiscing est. Nam leo rutrum gravida curabitur at vel risus.',
+    description: 'We did sound design for kra radio advert.',
     companyUrl: 'https://www.safaricom.co.ke/personal/',
     audio: 'kra.mp3',
     left: false,
@@ -310,8 +308,7 @@ const iconikAudio = [
     title: 'Safaricom Zuri',
     date: 'Oct 28, 2020',
     client: 'Safaricom LLC',
-    description:
-      'Malesuada eu cursus natoque purus ipsum nunc, velit cras tellus. Maecenas viverra pellentesque at ultrices purus vitae quis erat volutpat. Turpis auctor neque bibendum id pellentesque ut egestas. Donec ut faucibus nisl nec at purus. Cursus vel gravida gravida purus varius feugiat.Semper mauris id adipiscing est. Nam leo rutrum gravida curabitur at vel risus.',
+    description: 'We did sound design for safaricom zuri animation advert.',
     companyUrl: 'https://www.safaricom.co.ke/personal/',
     audio: 'safaricom.mp3',
     left: true,
@@ -320,8 +317,7 @@ const iconikAudio = [
     title: 'Shell Hilux',
     date: 'Oct 28, 2020',
     client: 'Shell LLC',
-    description:
-      'Malesuada eu cursus natoque purus ipsum nunc, velit cras tellus. Maecenas viverra pellentesque at ultrices purus vitae quis erat volutpat. Turpis auctor neque bibendum id pellentesque ut egestas. Donec ut faucibus nisl nec at purus. Cursus vel gravida gravida purus varius feugiat.Semper mauris id adipiscing est. Nam leo rutrum gravida curabitur at vel risus.',
+    description: 'We recorded shell helix radio adverts campaign.',
     companyUrl: 'https://www.safaricom.co.ke/personal/',
     audio: 'shell.mp3',
     left: false,
@@ -331,7 +327,7 @@ const iconikAudio = [
     date: 'Oct 28, 2020',
     client: 'NCBA LLC',
     description:
-      'Malesuada eu cursus natoque purus ipsum nunc, velit cras tellus. Maecenas viverra pellentesque at ultrices purus vitae quis erat volutpat. Turpis auctor neque bibendum id pellentesque ut egestas. Donec ut faucibus nisl nec at purus. Cursus vel gravida gravida purus varius feugiat.Semper mauris id adipiscing est. Nam leo rutrum gravida curabitur at vel risus.',
+      'We recorded voice over for ncba bank radio and tvc and did the sound design.',
     companyUrl: 'https://www.safaricom.co.ke/personal/',
     audio: 'ncba.mp3',
     left: true,
