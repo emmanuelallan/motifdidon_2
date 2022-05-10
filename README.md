@@ -1,9 +1,10 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# Motif Di Don
 
-# Project Name
 
-> Description the project.
+> Personal portfolio website for #1 kenya's music producer motif
 
+
+![Screenshot_4](https://user-images.githubusercontent.com/29913493/167656139-58955d71-1d27-416a-be2b-7d29f4a09b58.png)
 
 ## Built With
 
